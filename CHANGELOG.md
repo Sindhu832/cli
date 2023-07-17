@@ -1,5 +1,15 @@
 # Changelog
 
+## [9.8.1](https://github.com/npm/cli/compare/v9.8.0...v9.8.1) (2023-07-17)
+
+### Bug Fixes
+
+* [`02c7ddb`](https://github.com/npm/cli/commit/02c7ddb4501682c9e84b8c1325638b7db1ca7deb) [#6642](https://github.com/npm/cli/pull/6642) much clearer npx 'canceled' error (#6642) (@rahulio96, @AaronHamilton965)
+
+### Dependencies
+
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v6.0.3): `libnpmexec@6.0.3`
+
 ## [9.8.0](https://github.com/npm/cli/compare/v9.7.2...v9.8.0) (2023-07-05)
 
 ### Features
