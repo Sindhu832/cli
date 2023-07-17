@@ -1,0 +1,27 @@
+crio-user@sindhupriya1012:~$ 
+crio-user@sindhupriya1012:~$ # Go to the workspace directory
+crio-user@sindhupriya1012:~$ cd ~/workspace
+crio-user@sindhupriya1012:~/workspace$ 
+crio-user@sindhupriya1012:~/workspace$ # Clone the repository for this ME.
+crio-user@sindhupriya1012:~/workspace$ git clone git@gitlab.crio.do:COHORT_ME_QTRIPDYNAMIC_ENROLL_1687435263992/sindhupriya1012-ME_QTRIPDYNAMIC.git
+Cloning into 'sindhupriya1012-ME_QTRIPDYNAMIC'...
+The authenticity of host 'gitlab.crio.do (20.204.26.241)' can't be established.
+ECDSA key fingerprint is SHA256:hgvujuwZPOht8JKhQcGUFqlwDCEtInTO6HXvyoDLQEg.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+crio-user@sindhupriya1012:~/workspace$ 
+crio-user@sindhupriya1012:~/workspace$ # Go into the cloned repo directory.
+crio-user@sindhupriya1012:~/workspace$ cd ~/workspace/sindhupriya1012-ME_QTRIPDYNAMIC/
+bash: cd: /home/crio-user/workspace/sindhupriya1012-ME_QTRIPDYNAMIC/: No such file or directory
+crio-user@sindhupriya1012:~/workspace$ 
+crio-user@sindhupriya1012:~/workspace$ # Setup the remote repository and pull the code stubs for this ME.
+crio-user@sindhupriya1012:~/workspace$ git remote add ME_QTRIPDYNAMIC_MODULE_CITIES_STUB git@gitlab.crio.do:ME_QTRIPDYNAMIC_STUBS/ME_QTRIPDYNAMIC_MODULE_CITIES_STUB.git
+IPDYNAMIC_MODULE_CITIES_STUB master --allow-unrelated-histories --no-editfatal: not a git repository (or any parent up to mount point /home/crio-user)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+crio-user@sindhupriya1012:~/workspace$ 
+crio-user@sindhupriya1012:~/workspace$ git pull ME_QTRIPDYNAMIC_MODULE_CITIES_STUB master --allow-unrelated-histories --no-edit
+
